@@ -1,4 +1,4 @@
-<h2> Algorithms
+<h2> Algorithms </h2>
 <hr>
 <p>
 These are some algorithms that I learnt in my algorithms course in college as well as some I probably solved when I was free.
