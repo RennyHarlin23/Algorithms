@@ -1,6 +1,6 @@
-# Algorithms
+<h1> Algorithms
 <hr>
-## These are some algorithms that I learnt in my algorithms course in college as well as some I probably solved when I was free.
+<h2> These are some algorithms that I learnt in my algorithms course in college as well as some I probably solved when I was free.
 
 ## My plan is to keep this repository updated with the algorithms I might learn in future as well.
 
