@@ -10,6 +10,8 @@ Problems solved till now:
 2. Reverse Polish Notation
 3. Peak finding
 4. Valid paranthesis
+5. Kth largest element using merge sort
+6. Minimum path sum using dp without memoization (Must do that sometime) 
 
 Thanks for coming by.
 </p>
