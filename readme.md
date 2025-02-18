@@ -12,7 +12,7 @@ Problems solved till now:
 4. Valid paranthesis
 5. Kth largest element using merge sort
 6. Minimum path sum using dp without memoization (Must do that sometime) 
-7. Counting Bits (First implemented using recursion (O(nlogn) algorithm) logn for computing the number of 1's and n+1 iterations. Then, realised memoized dp can do it in O(n) time!)
+7. Counting Bits <b> [ First implemented using recursion (O(nlogn) algorithm) logn for computing the number of 1's and n+1 iterations. Then, realised memoized dp can do it in O(n) time ! ] </b>
 
 Thanks for coming by.
 </p>
