@@ -15,5 +15,6 @@ Problems solved till now:
 7. Counting Bits 
 8. Best Time to buy and sell stock using dynamic programming - [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 9. Longest common subsequence - [Link](https://leetcode.com/problems/longest-common-subsequence/description/)
+10. House robber - [Link](https://leetcode.com/problems/house-robber/description/)
 
 Thanks for coming by.
