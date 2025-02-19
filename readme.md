@@ -13,7 +13,7 @@ Problems solved till now:
 5. Kth largest element using merge sort
 6. Minimum path sum using dp without memoization (Must do that sometime) 
 7. Counting Bits 
-8. Best Time to buy and sell stock using dynamic programming - <a href=https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/">Link</a>  
+8. Best Time to buy and sell stock using dynamic programming - [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 
 Thanks for coming by.
 </p>
