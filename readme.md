@@ -11,7 +11,7 @@ Problems solved till now:
 3. Peak finding
 4. Valid paranthesis
 5. Kth largest element using merge sort
-6. Minimum path sum using dp without memoization (Must do that sometime) 
+6. Minimum path sum - [Link](https://leetcode.com/problems/minimum-path-sum/description/)
 7. Counting Bits 
 8. Best Time to buy and sell stock using dynamic programming - [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 9. Longest common subsequence - [Link](https://leetcode.com/problems/longest-common-subsequence/description/)
