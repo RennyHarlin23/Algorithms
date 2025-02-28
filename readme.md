@@ -10,7 +10,7 @@ Problems solved till now:
 2. Reverse Polish Notation
 3. Peak finding
 4. Valid paranthesis
-5. Kth largest element using merge sort
+5. Best time to buy and sell stock - [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
 6. Minimum path sum - [Link](https://leetcode.com/problems/minimum-path-sum/description/)
 7. Counting Bits 
 8. Longest common subsequence - [Link](https://leetcode.com/problems/longest-common-subsequence/description/)
