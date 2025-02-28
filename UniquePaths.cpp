@@ -10,10 +10,10 @@ using namespace std;
  * Subproblem defnition: f(i, j) = no. of unique paths that exist form (i,j) to (m,n)
  * Original problem = f(0,0)
  * Relate: f(i, j) = 
- * 1. f(i+1, j) + f(i, j+1) + 2
- * 2. if i == m-1, then f(i, j+1) + 1 
- * 3. if j == n-1, then (i+1, j) + 1
- * Base Case: if(i == m-1 and j == n-1), then return 0;
+ * 1. f(i+1, j) + f(i, j+1)
+ * 2. if i == m-1, then f(i, j+1) 
+ * 3. if j == n-1, then (i+1, j)
+ * Base Case: if(i == m-1 and j == n-1), then return 1; [ return 1 when a particular path has finally reached teh destination ]
  * Topological Order:
  * for i=m-2 to 0
  *  for j=n-2 to 0

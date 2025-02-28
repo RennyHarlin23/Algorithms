@@ -10,7 +10,7 @@ using namespace std;
  * Base case: if(i == m-1 and j == n-1) return grid[i][j]
  * mps(i,j) = grid[i][j] + min{mps(i+1,j), mps(i,j+1)
  */
-vector<vector<int>> grid = {{1,3,1},{1,5,1},{4,2,1}};
+vector<vector<int>> grid = {{1,2,3},{4,5,6}};
 
 int mps(vector<vector<int>> grid, int row, int column){
   if(row == grid.size() - 1 and column == grid[0].size() - 1)
@@ -24,9 +24,36 @@ int mps(vector<vector<int>> grid, int row, int column){
 
   return grid[row][column] + min(mps(grid, row+1, column), mps(grid, row, column+1));
 }
+/*
+ * Given a grid find the mps of moving the top right to the bottom left
+ * subproblem: mps(i,j) = min cost of reaching i,j
+ * relate: mps(i,j) = cost of grid[i][j] + min(grid[i-1][j], grid[i][j-1]) 
+ * different ways of reaching i, j => can be reached from the left and from the top
+ */
+int mps_iterative(vector<vector<int>> grid, int row, int column){
+  int m = grid.size();
+  int n = grid[0].size();
+  vector<vector<int>> dp(m, vector<int>(n));
+  dp[0][0] = grid[0][0];
+
+  for(int i = 1; i < m; i++){
+    dp[i][0] = grid[i][0] + dp[i-1][0];
+  }
+
+  for(int j = 1; j < n; j++){
+    dp[0][j] = grid[0][j] + dp[0][j-1];
+  }
+
+  for(int i = 1; i < m; i++){
+    for(int j = 1; j < n; j++){
+        dp[i][j] = grid[i][j] + min(dp[i-1][j], dp[i][j-1]);
+    }
+  }
+  return dp[m-1][n-1];
+}
 
 int minimumPathSum(vector<vector<int>> &grid){
-  int ans = mps(grid, 0, 0);
+  int ans = mps_iterative(grid, 0, 0);
   return ans;
 }
 
