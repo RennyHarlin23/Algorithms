@@ -13,9 +13,8 @@ Problems solved till now:
 5. Kth largest element using merge sort
 6. Minimum path sum - [Link](https://leetcode.com/problems/minimum-path-sum/description/)
 7. Counting Bits 
-8. Best Time to buy and sell stock using dynamic programming - [Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
-9. Longest common subsequence - [Link](https://leetcode.com/problems/longest-common-subsequence/description/)
-10. House robber - [Link](https://leetcode.com/problems/house-robber/description/)
-11. Unique paths - [Link](https://leetcode.com/problems/unique-paths/description/)
+8. Longest common subsequence - [Link](https://leetcode.com/problems/longest-common-subsequence/description/)
+9. House robber - [Link](https://leetcode.com/problems/house-robber/description/)
+10. Unique paths - [Link](https://leetcode.com/problems/unique-paths/description/)
 
 Thanks for coming by.
