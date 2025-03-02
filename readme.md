@@ -16,5 +16,6 @@ Problems solved till now:
 8. Longest common subsequence - [Link](https://leetcode.com/problems/longest-common-subsequence/description/)
 9. House robber - [Link](https://leetcode.com/problems/house-robber/description/)
 10. Unique paths - [Link](https://leetcode.com/problems/unique-paths/description/)
+11. Climbing stairs - [Link](https://leetcode.com/problems/climbing-stairs/description/)
 
 Thanks for coming by.
