@@ -6,6 +6,8 @@ My plan is to keep this repository updated with the algorithms I might learn in 
 
 Problems solved till now:
 1. Two sum
+    a. First approach is to use two for loops takes a time complexity of O(n^2) and space complexity of O(1)
+    b. Anything with this complexity can always be brought down to O(n) time complexity and O(n) space complexity with the help of hashmaps => Optimal Solution
 2. Reverse Polish Notation
 3. Peak finding
 4. Valid paranthesis
